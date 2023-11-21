@@ -1,4 +1,6 @@
-@import "nes-ui-react";
+/* @import "nes-ui-react"; */
+
+@import "../node_modules/nes.css/css/nes.css";
 
 #app {
   margin: 16px;
@@ -6,12 +8,10 @@
 
 .menu {
   width: 50%;
-  text-align: center;
+  /* text-align: center; */
   margin: auto;
-  /* display: flex;
-  justify-content: space-between; */
-}
-
-.menuItem {
-  margin: 0 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 3vh;
 }
