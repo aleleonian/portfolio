@@ -7,5 +7,11 @@
 .menu {
   width: 50%;
   text-align: center;
-  margin:auto;
+  margin: auto;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.menuItem {
+  margin: 0 30px;
 }

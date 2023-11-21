@@ -6,13 +6,11 @@ function emptyCallback() {
 }
 export function Menu() {
     return (
-        <>
-            <Container title='Menu' className="menu">
-                <Button color="primary" onClick={emptyCallback}>Projects</Button>
-                <Button color="warning" onClick={emptyCallback}>About</Button>
-                <Button color="error" onClick={emptyCallback}>Contact</Button>
-                <Button color="success" onClick={emptyCallback}>Github</Button>
-            </Container>
-        </>
+        <Container title='Menu' className="menu">
+            <Button size="large" className="menuItem" color="primary" onClick={emptyCallback}>Projects</Button>
+            <Button size="large" className="menuItem" color="warning" onClick={emptyCallback}>About</Button>
+            <Button size="large" className="menuItem" color="error" onClick={emptyCallback}>Contact</Button>
+            <Button size="large" className="menuItem" color="success" onClick={emptyCallback}>Links</Button>
+        </Container>
     )
 }
